@@ -1,0 +1,28 @@
+{
+  "name": "weltonmusic",
+  "version": "1.0.0",
+  "description": "personal e-commerce site",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd backend && npm install  && cd ../frontend && npm install && npm run build",
+    "start": "node backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bewe3/weltonmusic"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bewe3/weltonmusic"
+  },
+  "homepage": "https://github.com/bewe3/weltonmusic#readme",
+  "dependencies": {
+    "cloudinary": "^1.37.3",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^7.3.4"
+  }
+}
